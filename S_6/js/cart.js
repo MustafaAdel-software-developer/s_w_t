@@ -8,7 +8,7 @@ function addProduct() {
   if (productName.value === "") {
     alert("Please enter product's name:");
     productName.focus();
-  } else if (price.value === "" || price.value < 0) {
+  } else if (price.value === "" || price.value <= 0) {
     alert("Please enter product's price:");
     price.value = "";
     price.focus();
