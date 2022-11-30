@@ -27,21 +27,28 @@ const getTotal = () => {
 const decQuantity = (i) => {
   if (products[i].quantity > 1) {
     products[i].quantity--;
-    localStorage.setItem("products", JSON.stringify(products));
+    // localStorage.setItem("products", JSON.stringify(products));
+    setProducts();
     renderHtml();
   }
 };
 
 const incQuantity = (i) => {
   products[i].quantity++;
-  localStorage.setItem("products", JSON.stringify(products));
+  // localStorage.setItem("products", JSON.stringify(products));
+  setProducts();
   renderHtml();
 };
 
 const remove = (i) => {
   products.splice(i, 1);
-  localStorage.setItem("products", JSON.stringify(products));
+  // localStorage.setItem("products", JSON.stringify(products));
+  setProducts();
   renderHtml();
+};
+
+const setProducts = () => {
+  localStorage.setItem("products", JSON.stringify(products));
 };
 
 const getProductHtmlRow = (p, i) => {
