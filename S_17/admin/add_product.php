@@ -1,19 +1,48 @@
 <?php
-// define('BASE_PATH',"./");
+define('BASE_PATH', '../');
 require_once("../layouts/header.php");
 ?>
-
-<form action="" enctype="multipart/form-data">
-  <input type="text" name="name" aria-valuetext="name">
-  <textarea name="description" cols="30" rows="10"></textarea>
-  <input type="file" name="image" aria-valuetext="image">
-  <input type="number" name="price" aria-valuetext="price">
-  <input type="text" name="bar_code" aria-valuetext="bar_code">
-  <select name="size_id" id="">size_id</select>
-  <select name="color_id" id="">color_id</select>
-  <select name="category_id" id="">category_id</select>
-  <input type="number" name="discount" id="" aria-valuetext="discount">
-  <input type="checkbox" name="is_recent" id="" aria-valuetext="is_recent">
-  <input type="checkbox" name="is_recent" id="" aria-valuetext="is_featured">
-  <input type="submit" value="save" aria-valuetext="save">
-</form>
+<section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <form class="row" enctype="multipart/form-data" method="GET">
+          <div>
+            <input type="text" class="form-control" name="name" aria-valuetext="name" >
+          </div>
+          <div>
+            <textarea name="description" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="file" name="image" aria-valuetext="image">
+          </div>
+          <div>
+            <input type="number" name="price" aria-valuetext="price">
+          </div>
+          <div>
+            <input type="text" name="bar_code" aria-valuetext="bar_code">
+          </div>
+          <div>
+            <select name="size_id" id="">size_id</select>
+          </div>
+          <div>
+            <select name="color_id" id="">color_id</select>
+          </div>
+          <div>
+            <select name="category_id" id="">category_id</select>
+          </div>
+          <div>
+            <input type="number" name="discount" id="" aria-valuetext="discount">
+          </div>
+          <div>
+            <input type="checkbox" name="is_recent" id="" aria-valuetext="is_recent">
+          </div>
+          <div>
+            <input type="checkbox" name="is_recent" id="" aria-valuetext="is_featured">
+          </div>
+          <div>
+            <input type="submit" value="save" aria-valuetext="save">
+            </div>        
+        </form>
+      </div>
+    </div>
+</section>       

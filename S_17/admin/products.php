@@ -1,6 +1,6 @@
 <?php
 require_once("../logic/products.php");
-require_once("./layouts/header.php");
+require_once("../layouts/header.php");
 $products = getProducts();
 ?>
 <div class="container-fluid  row">
