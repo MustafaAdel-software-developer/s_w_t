@@ -1,0 +1,52 @@
+1) Expresss.js (is the perfect route to avail of high-speed operations with a simplistic architecture. It is the most standard framework that doesn't 														require you to get into advanced skills. )
+
+With Express.js, the primary benefits are seen with robust APIs and improved client-server communication. The key features of Express.js can be listed as:
+	=> Great test coverage for easy application building and optimized testing along with multiple high-performance operations facilitates minimal 																		coding.
+	=>Instant integration with APIs and all types of server-side tools for robust web application development.
+	=>Optimized server-client communication and content negotiation that extracts the exact information by providing HTTP headers to URLs and thus																boosts the overall performance.
+	
+	=>URL- based HTTP routing with MVC facilitation for centric applications and a variety of plug-in and extension options.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Meteor.js (It is a great option to avail many libraries and build an efficient yet simplistic application with testing features inclusive.)
+
+features of Meteor.js are:
+	=> An Isomorphic cross-platform framework with code implementation facilitated in modern JavaScript.
+	=> It facilitates speed at all levels with speedier application interactions and faster loading results with improved availability.
+	=>Easy to use and integrate with a variety of platforms and programming languages such as Angular and React.
+	=>Universal code support for different devices and a lightweight architecture that delivers great performance.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------	
+3) Socket.io (is best suited for use with multiple programming languages. With this multiplexing support, it is known for real-time applications that require instant and reliable connectivity. )
+
+
+offers some interesting features:
+	=>Binary streaming support and multiplexing with easy and efficient socket management features.
+	=>Real-time analytics features with auto-reconnection support, robust error detection, and correction.
+	=>Custom URL routing for web sockets is facilitated with reliable connectivity implemented with few lines of code.
+	=>APIs for the client and server-side development of a real-time application for bidirectional and multi-party communications.
+----------------------------------------------------------------------------------------------------------------------------------------------------------	
+
+4) Sails.js (	-is an MVC web application framework built using Express with many socket integrations and database-based features.
+		-it offers an enterprise-level development solution using the Node js web framework.
+		-It is one of the best Node.js frameworks for building enterprise-grade applications with a modern data-oriented MVC architecture.
+)
+
+Some prominent features can be listed as:
+	=>Sails.js is easily compatible with any front-end, be it iOS, Android, Angular, React, Windows, or custom hardware.
+	=>With reusable security policies, it offers easy and efficient security integrations that can be upgraded as per the scope of the application.
+	=>An automated generation of REST APIs is facilitated, which offers a smooth use with a variety of web services without much time required to 																establish the same.
+	=>Sails use specific code-writing policies that make the framework much more flexible and open to the accommodation of options.
+----------------------------------------------------------------------------------------------------------------------------------------------------------	
+
+5) Hapi.js (It is an open-source framework that can be used to implement reliable and flexible security options.)
+
+features of Hapi.js:
+	=> It offers an enriched ecosystem that includes easy bug fixing, authentication, caching, and validation options.
+	=> This Node js API framework offers easy integration and compatibility with REST APIs along with easy access to develop with proxy servers and 														different types of desktop applications.
+	=> It is best suited for a Node js web app that is large and incorporates different teams' contributions for the development and maintenance 																		process.
+	=> Hapi is one of the best Node js frameworks for robust security, scalability, and real-time application development.
+
+
